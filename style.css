@@ -4,6 +4,10 @@ header {
   font-family: 'Lobster', cursive;
  background-color:#f1c232ff;
 }
+.blog {
+  color:white;
+  padding-left: 973px;
+}
 p {
   font-family: 'Dancing Script', cursive;
 }
