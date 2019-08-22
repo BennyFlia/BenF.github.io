@@ -1,56 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
+header {
+  padding: 17px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+ background-color:#f1c232ff;
+}
+.blog {
+  color:white;
+  padding-left: 20px;
+}
+p {
+  font-family: 'Dancing Script', cursive;
+}
+.skills {
+  font-family: 'Dancing Script', cursive;
+}
+.job-title {
+   font-family: 'Lobster', cursive; 
+}
+h1 {
+  right: 20px;
+  position: relative;
+}
+.headername {
+  position: relative;
+  top: -20px;
+}
+.tab {
+  background-color:#242940;
+  color: #f1c232ff;
+ width: 100%;
+ padding: 2% 0;
+ 
+ text-decoration: none;
+}
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>BennyFamilia</title>
-	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+.Group-header {
+ font-family: 'Pacifico', cursive;
+}
+.tab h2  {
+font-family: 'Lobster', cursive;
+margin-left: 100px;
+}
 
-<body>
-	<header>
-		<h1><img src="https://1.bp.blogspot.com/-caHDDn6e2HY/XVwVkg6fMEI/AAAAAAAAKyQ/XeoR8uOmkQ4b_WgcagZyx9_2TsHkJVeIgCLcBGAs/s1600/my%2Blogo%2B%25281%2529.png" alt="logo"> <span class="headername">BennyJ.Familia</span></h1>
-</header>
-<div class="tab">
-<h2>Resume</h2>
-</div>
-<main>
-   <h2 class="job-title">Web Design</h2>
-<p>
-107 Abbott St. Apt. 13
-Providence, RI 02906<br>
-<a href="tel:401-649-3887">(401)-649-3887</a><br>
-<a href="mailto:josue.familia62@gmail.com" target="_self">josue.familia62@gmail.com</a>
-</p>
-    
-    <h2 class="Group-header">Skills</h2>
-    
-    <ul class="skills">
-      <li>Basic computer knowledge</li>
-      <li>collaborative</li>
-    </ul>
-    
-    <h2 class="Group-header">Experience</h2> 
-    
-    <p><strong>City of Providence, 41 Fricker St, Providence, RI, 02903</strong> - Html internship<br>
-      August 05, 2019- MONTH 30, 2019</p>
-      
-    <h2 class="Group-header">Education</h2>
+ main {
+   background-color: white;
+   max-width: 960px;
+   margin: auto;
+   padding: 5%;
+ }
+.logo-footer {
+  background-color:#f1c232ff;
+}
 
-   <p><strong>E-Cubed Academy,812 Branch Ave, Providence, RI 02904</strong> - High School Diploma<br>
-Sep 4, 2014 - Jun 4, 2018</p>
-  
-    <h2 class="Group-header">Activities</h2>
-    
-      <p>I go to church every Thursdays and Sundays, I also play the piano for church and other church activities where we give out clothes,food and donate blood. 
-        I also play a little bit of video games in my free time. sometimes go camping with my church or go to theme parks every year. I am also currently in college. I'm passionate about working with technology, and playing music.</p>
-      </main>  
- <footer>
-   <img class="logo-footer" src="https://1.bp.blogspot.com/-caHDDn6e2HY/XVwVkg6fMEI/AAAAAAAAKyQ/XeoR8uOmkQ4b_WgcagZyx9_2TsHkJVeIgCLcBGAs/s1600/my%2Blogo%2B%25281%2529.png" alt="logo"> <a href="https://bennyfamilia.home.blog" class="blog">link to my blog</a>
-</footer>
-    </body>
-    </html>
+footer {
+  background-color: #242940;
+  color:#cccccc;
+  padding: 20px;
+}
+body {
+  background-color:#353744ff;
+}
